@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 1 EXA</title>
+        <link href="static/css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="body01">
+        <div class="contenedor">
+            <h1>Calculo de Compras</h1>
+            <form class='fcompras' action="/pagina1" method="POST">
+                <label for="nombre">Ingresa tu nombre</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="edad">Ingresa tu edad</label><br>
+                <input type="text" id="edad" name="edad"><br><br>
+                <label for="tarros">Ingresa la cantidad de tarros de pintura a comprar</label><br>
+                <input type="text" id="tarros" name="tarros"><br><br>
+                <input type="submit" value="Calcular">
+            </form>
+            {% if total_con_descuento %}
+                <div class="resultados">
+                    <p>Nombre del cliente: {{ nombre}}</p>
+                    <p>Total sin descuento: ${{ total_sin_descuento }}</p>
+                    <p>El descuento es: ${{ descuento }}</p>
+                    <p>El total a pagar es de: ${{ total_con_descuento }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </body>
+</html>

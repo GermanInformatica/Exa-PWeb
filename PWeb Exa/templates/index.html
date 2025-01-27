@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+        <link href="{{ url_for('static', filename='css/estilo.css') }}" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form class="index">
+        <a class="btn" href="{{ url_for('pagina1') }}">Ejercicio 1</a>
+        <a class="btn" href="{{ url_for('pagina2') }}">Ejercicio 2</a>
+        </form>
+    </body>
+</html>

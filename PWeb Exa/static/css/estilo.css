@@ -1,0 +1,84 @@
+body {
+    background-color: #ccccff;
+}
+.index {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 24px;
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+.btn:nth-child(1) {
+  background-color: purple;
+}
+
+.btn:nth-child(2) {
+  background-color: #8dff00;
+}
+input[type="submit"] {
+    padding: 9px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.body01 {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.fcompras{
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+.fcompras input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing:
+}
+.resultados {
+    text-align: left;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: fit-content;
+}
+.body02 {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.fsesion {
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+}
+.contenedor2 {
+    text-align: center;
+}
+.contenedor2 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 800px;
+
+}
